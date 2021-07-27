@@ -1,0 +1,184 @@
+{
+  "channels": [
+    {
+      "name": "Facebook",
+      "targetSpecifics": ["Location",
+      "Age", "Sex", "Spoken languages","Events"],
+      "fees": [
+        {
+          "price":"140EUR",
+          "services": ["3-8 listings","12 optimizations",
+          "Campain setup", "Admin and optimising",
+          "Email support", "Monthly reports", "Install",
+          "Conversion monitoring", "Landing page"]
+        },
+          {
+          "price":"200EUR",
+          "services": ["8-15 listings","20 optimizations",
+          "Campain setup", "Admin and optimising",
+          "Email support", "Monthly reports", "Install",
+          "Conversion monitoring", "Landing page", "Phone support",
+          "Remarketing"]
+        },
+          {
+          "price":"100EUR",
+          "services": ["1-3 listings","8 optimizations",
+          "Campain setup", "Admin and optimising",
+          "Email support", "Monthly reports", "Conversion monitoring"]
+        },
+           {
+          "price":"75EUR",
+          "services": ["1 pagina Facebook","8 optimizations",
+          "Campain setup", "Admin and optimising",
+          "Email support"]
+        }
+        ]
+    },
+       {
+      "name": "Linkedin",
+      "targetSpecifics": ["Location",
+      "Age", "Sex","Company", "Industry", "Expertise", "Education"],
+      "fees": [
+        {
+          "price":"150EUR",
+          "services": ["5-8 listings",
+          "Campain setup", "Admin and optimising",
+          "Email support", "Monthly reports", "Monitoring"]
+        },
+          {
+          "price":"180EUR",
+          "services": ["8-10 listings",
+          "Campain setup", "Admin and optimising",
+          "Email support", "Monthly reports", "Phone support"]
+        },
+          {
+          "price":"90EUR",
+          "services": ["1-3 listings",
+          "Campain setup", "Admin and optimising",
+          "Email support", "Monthly reports"]
+        },
+           {
+          "price":"60EUR",
+          "services": ["1-2 listings", "Admin and optimising",
+          "Email support"]
+        }
+        ]
+    },
+    {
+      "name": "Twitter",
+      "targetSpecifics": ["Location",
+      "Age", "Sex", "Spoken languages","Events", "Technology"],
+      "fees": [
+        {
+          "price":"170EUR",
+          "services": ["10-15 listings",
+          "Campain setup", "Campain auctioning", "Targeted tweets",
+          "Email support", "Monthly reports", "Admin and optimising"]
+        },
+          {
+          "price":"250EUR",
+          "services": ["15-20 listings",
+          "Campain setup",  "Campain auctioning", 
+          "Admin and optimising", "Targeted tweets",
+          "Email support", "Monthly reports", "Phone support"]
+        },
+          {
+          "price":"120EUR",
+          "services": ["5-10 listings", "Campain auctioning",
+          "Campain setup", "Admin and optimising",
+          "Email support", "Targeted tweets"]
+        },
+           {
+          "price":"80EUR",
+          "services": ["1-5 listings", "Campain auctioning",
+          "Campain setup", "Email support"]
+        }
+        ]
+    },
+    {
+      "name": "Instagram",
+      "targetSpecifics": ["Location",
+      "Age", "Sex", "Spoken languages","Interests"],
+      "fees": [
+        {
+          "price":"180EUR",
+          "services": ["5-8 listings","4 optimizations",
+          "Campain setup", "Campain testing",
+          "Campain analysis", "Email support"]
+        },
+          {
+          "price":"270EUR",
+          "services": ["10-12 listings","8 optimizations",
+          "Campain setup","Campain testing",
+          "Campain analysis", "Email support", "Phone support"]
+        },
+          {
+          "price":"130EUR",
+          "services": ["1-4 listings","2 optimizations",
+          "Campain setup", "Campain analysis", "Email support"]
+        },
+           {
+          "price":"80EUR",
+          "services": ["1 listing","0 optimizations",
+          "Campain setup", "Email support"]
+        }
+        ]
+    },
+    {
+      "name": "Google AdWords",
+      "targetSpecifics": ["Location",
+      "Age", "Sex", "Device", "Keywords", "Similar products/services"],
+      "fees": [
+        {
+          "price":"150EUR",
+          "services": ["3 optimizations",
+          "Campain setup", "Content creation", "Admin and monitoring",
+          "Email support"]
+        },
+          {
+          "price":"250EUR",
+          "services": ["5 optimizations",
+          "Campain setup", "Content creation", "Admin and monitoring",
+          "Email support", "Monthly reports","Phone support"]
+        },
+          {
+          "price":"90EUR",
+          "services": ["1 optimizations",
+          "Campain setup", "Content creation", "Email support"]
+        }
+        ]
+    },
+    {
+      "name": "SEO",
+      "targetSpecifics": ["Industry", "Keywords", "Hyperlinks"],
+      "fees": [
+        {
+          "price":"270EUR",
+          "services": ["Scope setup","Market research",
+          "Keywords research", "Content analysis",
+          "Hyperlink analysis", "Local SEO", "Website optimisation",
+          "Backlink setup", "Campain analysis", "Email support"]
+        },
+          {
+          "price":"320EUR",
+          "services":["Scope setup","Market research",
+          "Keywords research", "Content analysis",
+          "Hyperlink analysis", "Local SEO", "Audit SEO",
+          "Website optimisation", "Backlink setup", "Campain analysis", "Email support"]
+        },
+          {
+          "price":"180EUR",
+          "services": ["Scope setup","Market research",
+          "Keywords research", "Content analysis",
+          "Hyperlink analysis", "Local SEO",
+          "Backlink setup", "Email support"]
+        },
+           {
+          "price":"110EUR",
+          "services":  ["Scope setup","Market research", "Keywords research", "Content analysis", "Local SEO", "Email support"]
+        }
+        ]
+    }
+    ] 
+ 
+}

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">RinfAssignement</string>
+    <string name="target_specifics_title">Targets</string>
+    <string name="channels_title">Channels</string>
+    <string name="channels_details_title">Channel Details</string>
+    <string name="subscription_review_title">Review</string>
+    <string name="continue_btn">Continue</string>
+    <string name="targets_no_selection">Choose at least one target</string>
+    <string name="channels_no_selection">Select a channel to continue</string>
+    <string name="channel_reset">Reset selection</string>
+    <string name="rating">Your review here</string>
+    <string name="finish_btn">Finish</string>
+    <string name="subscription_no_review">Add a review</string>
+</resources>

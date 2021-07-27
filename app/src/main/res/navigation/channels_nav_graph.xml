@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/channels_nav_graph"
+    app:startDestination="@id/targetSpecificsFragment">
+
+    <fragment
+        android:id="@+id/targetSpecificsFragment"
+        android:name="com.example.rinfassignement.ui.channels.targets.TargetSpecificsFragment"
+        android:label="@string/target_specifics_title">
+
+        <action
+            android:id="@+id/action_targetSpecifics_to_channels"
+            app:destination="@id/channelsFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/channelsFragment"
+        android:name="com.example.rinfassignement.ui.channels.socialchannels.ChannelsFragment"
+        android:label="@string/channels_title" >
+
+        <action
+            android:id="@+id/action_channels_to_channelDetails"
+            app:destination="@id/channelDetailsFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim"/>
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/channelDetailsFragment"
+        android:name="com.example.rinfassignement.ui.channels.details.ChannelDetailsFragment"
+        android:label="@string/channels_details_title" >
+
+        <action
+            android:id="@+id/action_channelDetails_to_channelSubscriptionReview"
+            app:destination="@id/channelSubscriptionReviewFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim"/>
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/channelSubscriptionReviewFragment"
+        android:name="com.example.rinfassignement.ui.channels.subscription.ChannelSubscriptionReviewFragment"
+        android:label="@string/subscription_review_title" />
+
+</navigation>
