@@ -55,7 +55,7 @@ class ChannelSubscriptionReviewFragment : Fragment(R.layout.subscription_review_
         emailIntent.putExtra(Intent.EXTRA_TEXT, createMailContent())
         try {
             startActivity(Intent.createChooser(emailIntent, "Send mail..."))
-            findNavController().popBackStack(R.id.targetSpecificsFragment, true)
+            findNavController().popBackStack(R.id.targetSpecificsFragment, false)
         } catch (ex: ActivityNotFoundException) {
             Toast.makeText(
                 requireContext(),
